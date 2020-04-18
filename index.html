@@ -3,14 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Money Manager</title>
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styleSheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="status">
-      Budget details for the month April 2020
+      <div class="month-year">
+        Budget details for April 2020
+      </div>
+      <div class="budget">
+        0
+      </div>
+      <div class="income-bar">
+        <div class="income">
+          Income
+        </div>
+        <div class="income-val">
+          0
+        </div>
+      </div>
+      <div class="expense-bar">
+        <div class="expense">
+          Expense
+        </div>
+        <div class="expense-val">
+          0
+        </div>
+      </div>
     </div>
     <div class="inputs">
-      INPUT FORMS
+      <div class="input-type">
+        <select id="type" name="">
+          <option value="income">+</option>
+          <option value="expense">-</option>
+        </select>
+      </div>
+      <div class="description">
+        <input type="text" id="des" placeholder="Add description">
+      </div>
+      <div class="value">
+        <input type="number" id="val" placeholder="Add amount">
+      </div>
+      <div class="submit">
+        <button type="button" id="sub" name="button">&#10003</button>
+      </div>
     </div>
     <div class="display">
       income/ expenses
