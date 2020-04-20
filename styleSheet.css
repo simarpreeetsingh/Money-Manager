@@ -164,15 +164,37 @@ body {
 }
 
 .income-list {
-  background-color: pink;
   color: black;
   position: absolute;
   top: 62%;
   right: 52.5%;
-  height: 45px;
   width: 450px;
 }
 
+.income-start {
+  border-top-style: solid;
+  border-top-width: 1.5px;
+  border-top-color: lightgrey;
+  border-bottom-color: lightgrey;
+  height: 45px;
+}
+
+.income-source {
+  display: inline-block;
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  font-size: 1.1rem;
+}
+
+.income-value {
+  display: inline-block;
+  position: absolute;
+  top: 11px;
+  right: 20px;
+  color: #009797;
+  font-size: 1.1rem;
+}
 
 .expense-display {
   position: absolute;
@@ -184,11 +206,35 @@ body {
 }
 
 .expense-list {
-  background-color: lightblue;
   color: black;
   position: absolute;
   top: 62%;
   left: 52.5%;
   height: 45px;
   width: 450px;
+}
+
+.expense-start {
+  border-top-style: solid;
+  border-top-width: 1.5px;
+  border-top-color: lightgrey;
+  border-bottom-color: lightgrey;
+  height: 45px;
+}
+
+.expense-source {
+  display: inline-block;
+  position: absolute;
+  top: 11px;
+  left: 10px;
+  font-size: 1.1rem;
+}
+
+.expense-value {
+  display: inline-block;
+  position: absolute;
+  top: 11px;
+  right: 20px;
+  color: #ca3232;
+  font-size: 1.1rem;
 }
